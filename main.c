@@ -7,17 +7,6 @@ char cipher1 (char n);
 int main()
 {
 
-int pass;
-printf("Enter Admin Password To Start The Programn : ");
-scanf("%d", &pass);
-
-fflush(stdin);
-
-
-while (pass == 1008)
-
-{
-
    printf("\nWelcome To The Portal\n");
 
 
@@ -42,7 +31,6 @@ while (pass == 1008)
 
     return 0;
 
-}
 
 }
 
@@ -167,4 +155,3 @@ char   ch = tolower(n);
             return '@';
         }
 }
-
